@@ -21,7 +21,8 @@ require_relative '../config/environment'
 # elie = Student.new('Elie,  Simpson','BoatingTest 1', arren,'Pending')
 # jon = Student.new('Kyle ','Mainstream', 'BoatingTest 2', arren, 'Pending')
 # jon = Student.new('Jon',       'BBBBBB', 'BoatingTest 1',  yamiya, 'Pending')
-  ricko = Student.new("Ricko", "Mendez")
+
+  ricko = Student.new("Ricko", "Mendez") #<Student:0x00007fced5968b50 @first_name="Ricko", @last_name="Mendez">
 #
 # #INSTRUCTORS
 # yamiya = Instructor.new("Yamiya")
