@@ -7,32 +7,33 @@ require_relative '../config/environment'
 
 
 #TEST
-test1 = BoatingTest.new('Module 1', 'Elie', 'Avi')
-test2 = BoatingTest.new('Module 4', 'Jules', 'Avi')
-test3 = BoatingTest.new('Module 2', 'Ben', ' Max')
-test4 = BoatingTest.new('Module 5', 'Hellen', 'Avi')
-test5 = BoatingTest.new('Module 1', 'Jon', 'Avi')
-test6= BoatingTest.new('Module 2',  'Kyle', 'Avi')
-test7 = BoatingTest.new('Module 2', 'Christine', 'Avi')
-
-
-#STUDENTS
-ben = Student.new('Big', 'Ben', 'BoatingTest 2', yamiya, 'Pending')
-elie = Student.new('Elie,  Simpson','BoatingTest 1', arren,'Pending')
-jon = Student.new('Kyle ','Mainstream', 'BoatingTest 2', arren, 'Pending')
-jon = Student.new('Jon',       'BBBBBB', 'BoatingTest 1',  yamiya, 'Pending')
-
-#INSTRUCTORS
-yamiya = Instructor.new("Yamiya")
-marcel = Instructor.new("Marcel")
-arren = Instructor.new("Arren")
-
-#Add TESTS
-yamiya.add_boating_test(ben, "Fly-high", "pending")
-marcel.add_boating_test(kyle, "Git-good", "pending")
-arren.add_boating_test(jon, " Riddim", "pending")
-yamiya.add_boating_test(elie, "Arc-en-ciel", "pending")
-
+# test1 = BoatingTest.new('Module 1', 'Elie', 'Avi')
+# test2 = BoatingTest.new('Module 4', 'Jules', 'Avi')
+# test3 = BoatingTest.new('Module 2', 'Ben', ' Max')
+# test4 = BoatingTest.new('Module 5', 'Hellen', 'Avi')
+# test5 = BoatingTest.new('Module 1', 'Jon', 'Avi')
+# test6= BoatingTest.new('Module 2',  'Kyle', 'Avi')
+# test7 = BoatingTest.new('Module 2', 'Christine', 'Avi')
+#
+#
+# #STUDENTS
+# ben = Student.new('Big', 'Ben', 'BoatingTest 2', yamiya, 'Pending')
+# elie = Student.new('Elie,  Simpson','BoatingTest 1', arren,'Pending')
+# jon = Student.new('Kyle ','Mainstream', 'BoatingTest 2', arren, 'Pending')
+# jon = Student.new('Jon',       'BBBBBB', 'BoatingTest 1',  yamiya, 'Pending')
+  ricko = Student.new("Ricko", "Mendez")
+#
+# #INSTRUCTORS
+# yamiya = Instructor.new("Yamiya")
+# mark = Instructor.new("Mark")
+# arren = Instructor.new("Arren")
+#
+# #Add TESTS
+# yamiya.add_boating_test(ben, "Fly-high", "pending")
+# marcel.add_boating_test(kyle, "Git-good", "pending")
+# arren.add_boating_test(jon, " Riddim", "pending")
+# yamiya.add_boating_test(elie, "Arc-en-ciel", "pending")
+#
 
 #=> [#<BoatingTest:0x00007f8b2604e698 @instructor="Avi", @name="Module 1", @student="Elie">,
  #<BoatingTest:0x00007f8b2604e5f8 @instructor="Avi", @name="Module 4", @student="Jules">,
