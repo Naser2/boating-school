@@ -9,7 +9,7 @@
 
 class BoatingTest
 #
-attr_reader :test_name, :test_status, :student, :instructor
+attr_accessor :test_name, :test_status, :student, :instructor
 
   @@all = []
 
